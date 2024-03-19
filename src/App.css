@@ -1,0 +1,49 @@
+#main{
+  display: flex;
+  height: 100vh;
+}
+
+.leftPort{
+  background-color: #4d015b;
+  width: 400px;
+  flex-shrink: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.rightPort{
+  background-color: rgb(103, 116, 130);
+  width: 100%;
+  flex-grow: 1;
+  padding: 4rem;
+}
+
+.imageProfile{
+  width: 150px;
+  height: 140px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 1rem;
+  margin-bottom: -10px;
+}
+
+.imageProfile img{
+  width: 121%;
+  height: 160%;
+  margin: -67px;
+}
+
+.titleProt h2{
+  color: greenyellow;
+}
+p{
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+#root {
+  width: 100%;
+}
